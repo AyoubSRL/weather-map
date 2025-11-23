@@ -1,0 +1,59 @@
+#map { height: 750px; 
+    width: calc(100% - 200px);
+}
+#search {
+  width: calc(100% - 20px);
+  margin: 10px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+#info {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #f8f8f8;
+  border-top: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 16px;
+  color: #333;
+}
+#map-container {
+  display: flex;
+  height: 80vh; 
+}
+
+#map {
+  flex: 3; 
+}
+#info > div {
+  flex: 1 1 200px;
+  text-align: center;
+    border: #333 1px solid;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f7f2cc;
+}
+#sidebar {
+  flex: 1; 
+  background: #f8f8f8;
+  border-left: 1px solid #ddd;
+  padding: 10px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+#markerList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#markerList li {
+  padding: 6px 8px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
