@@ -1,4 +1,5 @@
-# Kanban board per la gestione delle issues
+## weather-application con mappa e geopoint con uso di pocketbase 
+
 ## Preview 
 Web application per visualizzare sulla mappa punti geografici e le loro coordinate temperature locali e nome del luogo e tenerne traccia tramite database pocketbase
 
